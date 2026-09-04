@@ -1,5 +1,7 @@
 use std::path::Path;
+mod catalog;
 mod evaluator;
+mod exercise;
 
 fn main() {
     let exercise_path = Path::new(env!["CARGO_MANIFEST_DIR"]).join("exercises/exercise.nix");
