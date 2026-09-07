@@ -37,8 +37,6 @@
           # module parameters provide easy access to attributes of the same
           # system.
 
-          # Equivalent to  inputs'.nixpkgs.legacyPackages.hello;
-          # packages.default = pkgs.hello;
           devShells.default = pkgs.mkShell {
             packages = with pkgs; [
               rustc
@@ -47,6 +45,25 @@
               rustfmt
               rust-analyzer
             ];
+          };
+
+          packages.default = pkgs.rustPlatform.buildRustPackage {
+            pname = "nixercises";
+            version = "0.1.0";
+            src = ./.;
+            cargoLock.lockFile = ./Cargo.lock;
+
+            nativeCheckInputs = with pkgs; [
+              cargo
+              clippy
+              nix
+              writableTmpDirAsHomeHook
+            ];
+
+            preCheck = ''
+              cargo clippy
+              export NIX_STATE_DIR=$TMPDIR
+            '';
           };
         };
       flake = {
