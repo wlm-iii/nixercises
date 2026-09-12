@@ -64,6 +64,10 @@
               cargo clippy
               export NIX_STATE_DIR=$TMPDIR
             '';
+
+            postInstall = ''
+              NIXERCISES_DATA_DIR="$out/share/nixercises"
+            '';
           };
         };
       flake = {

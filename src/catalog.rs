@@ -1,6 +1,7 @@
 use crate::exercise::Exercise;
 use std::error::Error;
 use std::fmt;
+pub mod manifest;
 
 pub struct Catalog {
     exercises: Vec<Exercise>,
@@ -67,13 +68,14 @@ impl Catalog {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::path::PathBuf;
 
     #[test]
     fn populate() {
         let mut exercises = Vec::<Exercise>::new();
         for i in 1..3 {
             for j in 1..4 {
-                exercises.push(Exercise::new(i, j, String::new()));
+                exercises.push(Exercise::new(i, j, String::new(), PathBuf::new()));
             }
         }
         exercises.reverse();
@@ -93,7 +95,7 @@ mod tests {
 
     #[test]
     fn singular() {
-        let exercises = vec![Exercise::new(1, 1, "single".to_string())];
+        let exercises = vec![Exercise::new(1, 1, "single".to_string(), PathBuf::new())];
         let catalog = Catalog::new(exercises).unwrap();
         assert!(!catalog.is_empty());
         let mut catalog_iter = catalog.iter();
@@ -104,8 +106,8 @@ mod tests {
     #[test]
     fn duplicate_id_only() {
         let exercises = vec![
-            Exercise::new(1, 1, "foo".to_string()),
-            Exercise::new(1, 1, "bar".to_string()),
+            Exercise::new(1, 1, "foo".to_string(), PathBuf::new()),
+            Exercise::new(1, 1, "bar".to_string(), PathBuf::new()),
         ];
         let catalog = Catalog::new(exercises);
         assert!(catalog.is_err());
@@ -118,8 +120,8 @@ mod tests {
     #[test]
     fn duplicate_id_and_name() {
         let exercises = vec![
-            Exercise::new(1, 1, "foo".to_string()),
-            Exercise::new(1, 1, "foo".to_string()),
+            Exercise::new(1, 1, "foo".to_string(), PathBuf::new()),
+            Exercise::new(1, 1, "foo".to_string(), PathBuf::new()),
         ];
         let catalog = Catalog::new(exercises);
         assert!(catalog.is_err());

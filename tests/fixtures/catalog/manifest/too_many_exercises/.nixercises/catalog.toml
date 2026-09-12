@@ -1,0 +1,776 @@
+schema_version = "0.1"
+
+[[topics]]
+name = "topic"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+
+[[topics.exercises]]
+name = "exercise"
+

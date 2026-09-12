@@ -1,17 +1,20 @@
 use std::cmp::Ordering;
 use std::fmt;
+use std::path::{Path, PathBuf};
 
 #[derive(Debug, Clone)]
 pub struct Exercise {
     id: ExerciseId,
     name: String,
+    path: PathBuf,
 }
 
 impl Exercise {
-    pub fn new(topic: u8, exercise: u8, name: String) -> Self {
+    pub fn new(topic: u8, exercise: u8, name: String, path: PathBuf) -> Self {
         Self {
             id: ExerciseId::new(topic, exercise),
             name,
+            path,
         }
     }
 
@@ -21,6 +24,10 @@ impl Exercise {
 
     pub fn name(&self) -> &str {
         &self.name
+    }
+
+    pub fn path(&self) -> &Path {
+        &self.path
     }
 }
 
@@ -75,21 +82,27 @@ mod tests {
 
     #[test]
     fn comparison() {
-        let e1m1 = Exercise::new(1, 1, String::from("hangar"));
-        let e1m2 = Exercise::new(1, 2, String::from("nuclear plant"));
-        let e2m1 = Exercise::new(2, 1, String::from("deimos anomaly"));
+        let e1m1 = Exercise::new(1, 1, String::from("hangar"), PathBuf::new());
+        let e1m2 = Exercise::new(1, 2, String::from("nuclear plant"), PathBuf::new());
+        let e2m1 = Exercise::new(2, 1, String::from("deimos anomaly"), PathBuf::new());
         assert_eq!(e1m1.cmp(&e2m1), Ordering::Less);
         assert_eq!(e1m1.cmp(&e1m2), Ordering::Less);
         assert_eq!(e1m2.cmp(&e2m1), Ordering::Less);
-        assert_eq!(e1m1, Exercise::new(1, 1, String::from("entryway")));
-        assert_eq!(e1m1, Exercise::new(1, 1, String::from("hangar")));
+        assert_eq!(
+            e1m1,
+            Exercise::new(1, 1, String::from("entryway"), PathBuf::new())
+        );
+        assert_eq!(
+            e1m1,
+            Exercise::new(1, 1, String::from("hangar"), PathBuf::new())
+        );
     }
 
     #[test]
     fn display() {
         let e1m1_id = ExerciseId::new(1, 1);
         assert_eq!(e1m1_id.to_string(), "t1e1".to_string());
-        let e1m1 = Exercise::new(1, 1, String::from("hangar"));
+        let e1m1 = Exercise::new(1, 1, String::from("hangar"), PathBuf::new());
         assert_eq!(e1m1.to_string(), "t1e1 (hangar)".to_string());
     }
 }
