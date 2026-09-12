@@ -3,4 +3,9 @@ name = "nixercises"
 version = "0.1.0"
 edition = "2024"
 
+[dev-dependencies]
+serial_test = { version = "4.0.1", features = ["file_locks"] }
+
 [dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+toml = "1.1.5"

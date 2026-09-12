@@ -1,0 +1,16 @@
+schema_version = "0.1"
+
+[[topics]]
+name = "topic1"
+
+[[topics.exercises]]
+name = "exercise1"
+
+[[topics.exercises]]
+name = "exercise2"
+
+[[topics]]
+name = "topic2"
+
+[[topics.exercises]]
+name = "exercise1"

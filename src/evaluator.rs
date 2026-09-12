@@ -29,7 +29,12 @@ impl NixEvaluator {
 
     pub fn evaluate(&self) -> Result<Vec<u8>, EvalError> {
         let output = Command::new(self.program)
-            .args(["eval", "--file"])
+            .args([
+                "--extra-experimental-features",
+                "nix-command",
+                "eval",
+                "--file",
+            ])
             .arg(self.path.as_os_str())
             .output();
         match output {
@@ -54,21 +59,39 @@ mod tests {
     use super::*;
 
     #[test]
+    #[serial_test::file_serial(nix)]
     fn nix_success() {
         let exercise_path = std::path::Path::new(env!["CARGO_MANIFEST_DIR"])
             .join("tests/fixtures/evaluator/success.nix");
         let nix_evaluator = crate::evaluator::NixEvaluator::new(exercise_path.to_path_buf());
         let result = nix_evaluator.evaluate();
-        assert![result.is_ok()];
-        if let Ok(stdout) = result {
-            assert_eq!(
-                String::from_utf8_lossy(&stdout),
-                "{ success = \"I succeeded!\"; }\n"
-            );
+        match result {
+            Ok(stdout) => {
+                assert_eq!(
+                    String::from_utf8_lossy(&stdout),
+                    "{ success = \"I succeeded!\"; }\n"
+                );
+            }
+            Err(EvalError::Evaluation {
+                status,
+                stdout,
+                stderr,
+            }) => {
+                panic!(
+                    "{} {} {}",
+                    status,
+                    String::from_utf8_lossy(&stdout),
+                    String::from_utf8_lossy(&stderr)
+                )
+            }
+            Err(EvalError::Command(err)) => {
+                panic!("{}", err)
+            }
         }
     }
 
     #[test]
+    #[serial_test::file_serial(nix)]
     fn nix_failure() {
         let exercise_path = std::path::Path::new(env!["CARGO_MANIFEST_DIR"])
             .join("tests/fixtures/evaluator/failure.nix");
